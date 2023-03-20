@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <h3>Contato</h3>
+        <p>Entre em contato conosco!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Índice</a></li>
+            <li><a href="imagensdodia.html">Imagens do Dia</a></li>
+            <li><a href="noticiasdodia.html">Notícias do Dia</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="enviar_contato.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required><br>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br>
+
+            <label for="sexo">Sexo:</label>
+            <input type="radio" id="sexo-masculino" name="sexo" value="masculino" required>
+            <label for="sexo-masculino">Masculino</label>
+            <input type="radio" id="sexo-feminino" name="sexo" value="feminino" required>
+            <label for="sexo-feminino">Feminino</label><br>
+
+            <label for="idade">Idade:</label>
+            <select id="idade" name="idade" required>
+                <option value="menor18">Menor de 18 anos</option>
+                <option value="18a24">18 a 24 anos</option>
+                <option value="25a34">25 a 34 anos</option>
+                <option value="35a44">35 a 44 anos</option>
+                <option value="maior44">Maior de 44 anos</option>
+            </select><br>
+
+            <label for="newsletter">Deseja receber nossa newsletter?</label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="sim"><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <footer>
+        <p>prof. Giulio Suzumura em 30 de fevereiro de 2041.</p>
+    </footer>
+</body>
+
+</html>
