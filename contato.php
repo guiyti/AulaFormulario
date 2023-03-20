@@ -13,7 +13,7 @@
 		<li><a href="index.html">Índice</a></li>
 		<li><a href="imagensdodia.html">Imagens do Dia</a></li>
 		<li><a href="noticiasdodia.html">Notícias do Dia</a></li>
-		<li><a href="contato.html">Contato</a></li>
+		<li><a href="contato.html">Contato </a></li>
 	</ul>
 </nav>
 
@@ -54,7 +54,7 @@
 		var mensagem = "Processado em " + dia + "/" + mes + "/" + ano + ".";
 		
 		// Insere a mensagem na página
-		document.getElementById("processado").innerHTML = mensagem;
+		document.getElementById("processado").innerHTML = mensagem; 
 	</script>
 </footer>
 </body>
